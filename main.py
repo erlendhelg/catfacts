@@ -6,13 +6,15 @@ import json
 
 url = "https://catfact.ninja/fact"
 ml = 80
-"""""
-requests = requests.get(url)
-data = dump.dump_all(requests)
-print(requests.json())
-print(data.decode("utf-8"))
 
-with open("test.txt", "w") as test:
+# removed code below was used for testing
+"""""
+requests = requests.get(url)   # sends a http request to url
+data = dump.dump_all(requests)  # dumps the raw json response 
+print(requests.json())  # prints the content of the json response
+print(data.decode("utf-8"))  # decodes the raw json data to utf-8 and prints it
+
+with open("test.txt", "w") as test:  # writes the json data to a file (will overwrite anything in the file)
     test.write(data.decode("utf-8"))
 """""
 
