@@ -1,0 +1,89 @@
+< GET /fact HTTP/1.1
+< Host: catfact.ninja
+< User-Agent: python-requests/2.28.1
+< Accept-Encoding: gzip, deflate
+< Accept: */*
+< Connection: keep-alive
+< 
+
+> HTTP/1.1 200 OK
+> Server: nginx
+> Date: Fri, 05 Aug 2022 11:50:44 GMT
+> Content-Type: application/json
+> Transfer-Encoding: chunked
+> Connection: keep-alive
+> Vary: Accept-Encoding
+> Cache-Control: no-cache, private
+> X-Ratelimit-Limit: 100
+> X-Ratelimit-Remaining: 98
+> Access-Control-Allow-Origin: *
+> Set-Cookie: XSRF-TOKEN=eyJpdiI6Ik1VZHJyOHZvekNBRHdpNjBsZHp6TkE9PSIsInZhbHVlIjoickw2K3NuUXU4R0sydDJPQUF3NDB0QVFjYjFMRkZQaW5vbWYrMW82ZGRFbmxyZFZudjFMQ1liaC81bW9ybi9JOTVseGpyTlNEWHNILzdKN3RhM3BSZ290L1JsNlZ6WDV6Syt3VFBmeDhBS1Vwd0tla2ZyYzZZRldZbmwya2NySFciLCJtYWMiOiJhOWFmMTkyNmNlNTdmZmRmMzQ5ODE2MzY3OTk2MWQ1Yzg1MjU1NTkyZTMyNmIxNTFjZmY0ZTY4YzlmM2FlODllIiwidGFnIjoiIn0%3D; expires=Fri, 05-Aug-2022 13:50:44 GMT; path=/; samesite=lax
+> Set-Cookie: cat_facts_session=eyJpdiI6Im43N09NVWp3YlBOZDh5ZllmYVIwMFE9PSIsInZhbHVlIjoiYmhYVnBmSDRrSVdzeldXS3JBdXAwV0p3NGZZV3VRNjR6Nm1uMzAvSXpNVjgyMUR5L0VwMnpiWEFPRXRXMkg5NjdzNDRya2pENnVyLzJiWmdSaFBXTFAzb21kakp2eWtHR1RlU0xYTU1vZEY4NjVZMmR5cG1tdDlESERYWGsxa28iLCJtYWMiOiIxODlkZGVlNWE0MDVjZGQyOTk5NmRkMGVmNDhkMDRmM2ZiMGRhMjA2YTdjYzE0NDk0NzZlMjRjYTA4MjllZTIzIiwidGFnIjoiIn0%3D; expires=Fri, 05-Aug-2022 13:50:44 GMT; path=/; httponly; samesite=lax
+> X-Frame-Options: SAMEORIGIN
+> X-XSS-Protection: 1; mode=block
+> X-Content-Type-Options: nosniff
+> Content-Encoding: gzip
+> 
+{"fact":"Tylenol and chocolate are both poisionous to cats.","length":50}{"fact": "A cat cannot see directly under its nose.", "length": 41}
+{"fact": "Cheetahs do not roar, as the other big cats do. Instead, they purr.", "length": 67}
+{"fact": "The oldest cat on record was Cr\u00e8me Puff from Austin, Texas, who lived from 1967 to August 6, 2005, three days after her 38th birthday. A cat typically can live up to 20 years, which is equivalent to about 96 human years.", "length": 220}
+{"fact": "Most cats adore sardines.", "length": 25}
+{"fact": "In ancient Egypt, when a family cat died, all family members would shave their eyebrows as a sign of mourning.", "length": 110}
+{"fact": "Cats spend nearly 1/3 of their waking hours cleaning themselves.", "length": 64}
+{"fact": "All cats need taurine in their diet to avoid blindness. Cats must also have fat in their diet as they are unable to produce it on their own.", "length": 140}
+{"fact": "The largest breed of cat is the Ragdoll with males weighing in at 1 5 to 20 lbs. The heaviest domestic cat on record was a neutered male tabby named Himmy from Queensland, Australia who weighed 46 lbs. 1 5 oz.", "length": 209}
+{"fact": "Approximately 24 cat skins can make a coat.", "length": 43}
+{"fact": "When a domestic cat goes after mice, about 1 pounce in 3 results in a catch.", "length": 76}
+{"fact": "Cats have the largest eyes of any mammal.", "length": 41}
+{"fact": "A cat can sprint at about thirty-one miles per hour.", "length": 52}
+{"fact": "Cats have 32 muscles that control the outer ear (humans have only 6). A cat can independently rotate its ears 180 degrees.", "length": 122}
+{"fact": "Cats only use their meows to talk to humans, not each other. The only time they meow to communicate with other felines is when they are kittens to signal to their mother.", "length": 170}
+{"fact": "At 4 weeks, it is important to play with kittens so that they do not develope a fear of people.", "length": 95}
+{"fact": "Like humans, cats tend to favor one paw over another", "length": 52}
+{"fact": "Cats spend nearly 1/3 of their waking hours cleaning themselves.", "length": 64}
+{"fact": "A healthy cat has a temperature between 38 and 39 degrees Celcius.", "length": 66}
+{"fact": "At 4 weeks, it is important to play with kittens so that they do not develope a fear of people.", "length": 95}
+{"fact": "While it is commonly thought that the ancient Egyptians were the first to domesticate cats, the oldest known pet cat was recently found in a 9,500-year-old grave on the Mediterranean island of Cyprus. This grave predates early Egyptian art depicting cats by 4,000 years or more.", "length": 278}
+{"fact": "Cats have the largest eyes of any mammal.", "length": 41}
+{"fact": "The first official cat show in the UK was organised at Crystal Palace in 1871.", "length": 78}
+{"fact": "An adult lion's roar can be heard up to five miles (eight kilometers) away.", "length": 75}
+{"fact": "The Maine Coon cat is America's only natural breed of domestic feline. It is 4 to 5 times larger than the Singapura, the smallest breed of cat.", "length": 143}
+{"fact": "The strongest climber among the big cats, a leopard can carry prey twice its weight up a tree.", "length": 94}
+{"fact": "In 1987, cats overtook dogs as the number one pet in America (about 50 million cats resided in 24 million homes in 1986). About 37% of American homes today have at least one cat.", "length": 178}
+{"fact": "In Ancient Egypt, when a person's house cat passed away, the owner would shave their eyebrows to reflect their grief.", "length": 117}
+{"fact": "The first formal cat show was held in England in 1871; in America, in 1895.", "length": 75}
+{"fact": "Your cat's heart beats at a rate almost double that of yours, from 110-140 beats per minute.", "length": 92}
+{"fact": "Miacis, the primitive ancestor of cats, was a small, tree-living creature of the late Eocene period, some 45 to 50 million years ago.", "length": 133}
+{"fact": "Many Egyptians worshipped the goddess Bast, who had a woman\u2019s body and a cat\u2019s head.", "length": 84}
+{"fact": "Perhaps the most famous comic cat is the Cheshire Cat in Lewis Carroll\u2019s Alice in Wonderland. With the ability to disappear, this mysterious character embodies the magic and sorcery historically associated with cats.", "length": 216}
+{"fact": "The cat who holds the record for the longest non-fatal fall is Andy. He fell from the 16th floor of an apartment building (about 200 ft/.06 km) and survived.", "length": 157}
+{"fact": "Cats control the outer ear using 32 muscles; humans use 6", "length": 57}
+{"fact": "Purring does not always indicate that a cat is happy. Cats will also purr loudly when they are distressed or in pain.", "length": 117}
+{"fact": "Cats walk on their toes.", "length": 24}
+{"fact": "A group of cats is called a \u201cclowder.\u201d", "length": 38}
+{"fact": "The technical term for a cat\u2019s hairball is a \u201cbezoar.\u201d", "length": 54}
+{"fact": "The smallest wildcat today is the Black-footed cat. The females are less than 20 inches (50 cm) long and can weigh as little as 2.5 lbs (1.2 kg).", "length": 145}
+{"fact": "Cats respond most readily to names that end in an \\ee\\\" sound.\"\"\"", "length": 65}
+{"fact": "The leopard is the most widespread of all big cats.", "length": 51}
+{"fact": "The Pilgrims were the first to introduce cats to North America.", "length": 63}
+{"fact": "Cats have individual preferences for scratching surfaces and angles. Some are horizontal scratchers while others exercise their claws vertically.", "length": 145}
+{"fact": "Cats have 32 muscles that control the outer ear (compared to human's 6 muscles each). A cat can rotate its ears independently 180 degrees, and can turn in the direction of sound 10 times faster than those of the best watchdog.", "length": 226}
+{"fact": "Cats have the largest eyes of any mammal.", "length": 41}
+{"fact": "Among many other diseases, cats can suffer from anorexia, senility, feline AIDS and acne.", "length": 89}
+{"fact": "Cats respond better to women than to men, probably due to the fact that women's voices have a higher pitch.", "length": 107}
+{"fact": "Cat bites are more likely to become infected than dog bites.", "length": 60}
+{"fact": "Tylenol and chocolate are both poisionous to cats.", "length": 50}
+{"fact": "Cats are extremely sensitive to vibrations. Cats are said to detect earthquake tremors 10 or 15 minutes before humans can.", "length": 122}
+{"fact": "A domestic cat can run at speeds of 30 mph.", "length": 43}
+{"fact": "Julius Ceasar, Henri II, Charles XI, and Napoleon were all afraid of cats.", "length": 74}
+{"fact": "Foods that should not be given to cats include onions, garlic, green tomatoes, raw potatoes, chocolate, grapes, and raisins. Though milk is not toxic, it can cause an upset stomach and gas. Tylenol and aspirin are extremely toxic to cats, as are many common houseplants. Feeding cats dog food or canned tuna that\u2019s for human consumption can cause malnutrition.", "length": 360}
+{"fact": "In just 7 years, one un-spayed female cat and one un-neutered male cat and their offspring can result in 420,000 kittens.", "length": 121}
+{"fact": "Fossil records from two million years ago show evidence of jaguars.", "length": 67}
+{"fact": "The lightest cat on record is a blue point Himalayan called Tinker Toy, who weighed 1 pound, 6 ounces (616 g). Tinker Toy was 2.75 inches (7 cm) tall and 7.5 inches (19 cm) long.", "length": 178}
+{"fact": "Cats spend nearly 1/3 of their waking hours cleaning themselves.", "length": 64}
+{"fact": "While many parts of Europe and North America consider the black cat a sign of bad luck, in Britain and Australia, black cats are considered lucky.", "length": 146}
+{"fact": "Cats spend nearly 1/3 of their waking hours cleaning themselves.", "length": 64}
+{"fact": "Female cats tend to be right pawed, while male cats are more often left pawed. Interestingly, while 90% of humans are right handed, the remaining 10% of lefties also tend to be male.", "length": 182}
+{"fact": "On average, cats spend 2/3 of every day sleeping. That means a nine-year-old cat has been awake for only three years of its life.", "length": 129}
+{"fact": "Many cats love having their forehead gently stroked.", "length": 52}
+{"fact": "Baking chocolate is the most dangerous chocolate to your cat.", "length": 61}
